@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1555335111728" stop="1555335147323" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Автотест для Yandex.Market</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1555335111840" stop="1555335147299" status="passed">
+            <name>Поиск ноутбуков HP и Lenovo, вывод информации о них</name>
+            <title>Поиск ноутбуков HP и Lenovo, вывод информации о них</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555335119094" stop="1555335119380" status="passed">
+                    <name>Если открыта страница market yandex ru</name>
+                    <title>Если открыта страница market yandex ru</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335119380" stop="1555335119497" status="passed">
+                    <name>То ввести в строку поиска "Компьютеры"</name>
+                    <title>То ввести в строку поиска "Компьютеры"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335119498" stop="1555335119594" status="passed">
+                    <name>Если кнопка "Поиск" активна</name>
+                    <title>Если кнопка "Поиск" активна</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335119594" stop="1555335123872" status="passed">
+                    <name>То нажать кнопку "Поиск"</name>
+                    <title>То нажать кнопку "Поиск"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335123872" stop="1555335124075" status="passed">
+                    <name>Если открыт раздел с компьютерами</name>
+                    <title>Если открыт раздел с компьютерами</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335124075" stop="1555335128265" status="passed">
+                    <name>То выбрать категорию "Ноутбуки"</name>
+                    <title>То выбрать категорию "Ноутбуки"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335128265" stop="1555335128841" status="passed">
+                    <name>Если открыт раздел с ноутбуками</name>
+                    <title>Если открыт раздел с ноутбуками</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335128841" stop="1555335129161" status="passed">
+                    <name>То задать параметр поиска до 109000 рублей</name>
+                    <title>То задать параметр поиска до 109000 рублей</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335129162" stop="1555335129341" status="passed">
+                    <name>То выбрать производителя HP</name>
+                    <title>То выбрать производителя HP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335129341" stop="1555335129502" status="passed">
+                    <name>То выбрать производителя Lenovo</name>
+                    <title>То выбрать производителя Lenovo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335129502" stop="1555335129579" status="passed">
+                    <name>Если выбраны производители HP и Lenovo</name>
+                    <title>Если выбраны производители HP и Lenovo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335129579" stop="1555335129921" status="passed">
+                    <name>То выбрать цвет Чёрный</name>
+                    <title>То выбрать цвет Чёрный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335129921" stop="1555335130110" status="passed">
+                    <name>То выбрать цвет Белый</name>
+                    <title>То выбрать цвет Белый</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335130110" stop="1555335135284" status="passed">
+                    <name>То фильтровать по цене</name>
+                    <title>То фильтровать по цене</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335135284" stop="1555335135369" status="passed">
+                    <name>То вывести самый дешёвый ноутбук</name>
+                    <title>То вывести самый дешёвый ноутбук</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335135370" stop="1555335140482" status="passed">
+                    <name>То фильтровать по цене</name>
+                    <title>То фильтровать по цене</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335140482" stop="1555335140526" status="passed">
+                    <name>Если выведенные ноутбуки меньше 109000</name>
+                    <title>Если выведенные ноутбуки меньше 109000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335140526" stop="1555335140599" status="passed">
+                    <name>То вывести самый дорогой ноутбук и разницу в цене</name>
+                    <title>То вывести самый дорогой ноутбук и разницу в цене</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335140599" stop="1555335141508" status="passed">
+                    <name>То занести все выведенные ноутбуки в список, вывести список отсортированный по имени</name>
+                    <title>То занести все выведенные ноутбуки в список, вывести список отсортированный по имени</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335141509" stop="1555335143723" status="passed">
+                    <name>То открыть страницу с ноутбуком</name>
+                    <title>То открыть страницу с ноутбуком</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335143723" stop="1555335144161" status="passed">
+                    <name>Если открыта страница с ноутбуком</name>
+                    <title>Если открыта страница с ноутбуком</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335144161" stop="1555335145765" status="passed">
+                    <name>То выбрать раздел с характеристиками</name>
+                    <title>То выбрать раздел с характеристиками</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335145765" stop="1555335145832" status="passed">
+                    <name>Если открыт раздел с характеристиками ноутбука</name>
+                    <title>Если открыт раздел с характеристиками ноутбука</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335145832" stop="1555335145896" status="passed">
+                    <name>То создать класс "Питание", занести характеристики в отдельные поля, создать его конструктор</name>
+                    <title>То создать класс "Питание", занести характеристики в отдельные поля, создать его конструктор</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335145896" stop="1555335146007" status="passed">
+                    <name>То нажать на поле с вопросом</name>
+                    <title>То нажать на поле с вопросом</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555335146007" stop="1555335146318" status="passed">
+                    <name>То вывести текст подсказки</name>
+                    <title>То вывести текст подсказки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск ноутбуков HP и Lenovo, вывод информации о них"/>
+                <label name="feature" value="Автотест для Yandex.Market"/>
+                <label name="host" value="pc178"/>
+                <label name="thread" value="4636@pc178.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Автотест для Yandex.Market"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1555335111840,
+    "stop" : 1555335147299,
+    "duration" : 35459
+  },
+  "testSuites" : [ {
+    "uid" : "37a3d367646ab8b8",
+    "name" : "Автотест для Yandex.Market",
+    "title" : "Market",
+    "time" : {
+      "start" : 1555335111840,
+      "stop" : 1555335147299,
+      "duration" : 35459
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9f285eca62e33b3",
+      "name" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+      "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+      "time" : {
+        "start" : 1555335111840,
+        "stop" : 1555335147299,
+        "duration" : 35459
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

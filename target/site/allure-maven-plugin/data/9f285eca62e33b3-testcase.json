@@ -1,0 +1,446 @@
+{
+  "uid" : "9f285eca62e33b3",
+  "name" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+  "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+  "time" : {
+    "start" : 1555335111840,
+    "stop" : 1555335147299,
+    "duration" : 35459
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "37a3d367646ab8b8",
+    "name" : "Автотест для Yandex.Market",
+    "title" : "Market"
+  },
+  "steps" : [ {
+    "name" : "Если открыта страница market yandex ru",
+    "title" : "Если открыта страница market yandex ru",
+    "time" : {
+      "start" : 1555335119094,
+      "stop" : 1555335119380,
+      "duration" : 286
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То ввести в строку поиска \"Компьютеры\"",
+    "title" : "То ввести в строку поиска \"Компьютеры\"",
+    "time" : {
+      "start" : 1555335119380,
+      "stop" : 1555335119497,
+      "duration" : 117
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если кнопка \"Поиск\" активна",
+    "title" : "Если кнопка \"Поиск\" активна",
+    "time" : {
+      "start" : 1555335119498,
+      "stop" : 1555335119594,
+      "duration" : 96
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То нажать кнопку \"Поиск\"",
+    "title" : "То нажать кнопку \"Поиск\"",
+    "time" : {
+      "start" : 1555335119594,
+      "stop" : 1555335123872,
+      "duration" : 4278
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если открыт раздел с компьютерами",
+    "title" : "Если открыт раздел с компьютерами",
+    "time" : {
+      "start" : 1555335123872,
+      "stop" : 1555335124075,
+      "duration" : 203
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать категорию \"Ноутбуки\"",
+    "title" : "То выбрать категорию \"Ноутбуки\"",
+    "time" : {
+      "start" : 1555335124075,
+      "stop" : 1555335128265,
+      "duration" : 4190
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если открыт раздел с ноутбуками",
+    "title" : "Если открыт раздел с ноутбуками",
+    "time" : {
+      "start" : 1555335128265,
+      "stop" : 1555335128841,
+      "duration" : 576
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То задать параметр поиска до 109000 рублей",
+    "title" : "То задать параметр поиска до 109000 рублей",
+    "time" : {
+      "start" : 1555335128841,
+      "stop" : 1555335129161,
+      "duration" : 320
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать производителя HP",
+    "title" : "То выбрать производителя HP",
+    "time" : {
+      "start" : 1555335129162,
+      "stop" : 1555335129341,
+      "duration" : 179
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать производителя Lenovo",
+    "title" : "То выбрать производителя Lenovo",
+    "time" : {
+      "start" : 1555335129341,
+      "stop" : 1555335129502,
+      "duration" : 161
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если выбраны производители HP и Lenovo",
+    "title" : "Если выбраны производители HP и Lenovo",
+    "time" : {
+      "start" : 1555335129502,
+      "stop" : 1555335129579,
+      "duration" : 77
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать цвет Чёрный",
+    "title" : "То выбрать цвет Чёрный",
+    "time" : {
+      "start" : 1555335129579,
+      "stop" : 1555335129921,
+      "duration" : 342
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать цвет Белый",
+    "title" : "То выбрать цвет Белый",
+    "time" : {
+      "start" : 1555335129921,
+      "stop" : 1555335130110,
+      "duration" : 189
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То фильтровать по цене",
+    "title" : "То фильтровать по цене",
+    "time" : {
+      "start" : 1555335130110,
+      "stop" : 1555335135284,
+      "duration" : 5174
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То вывести самый дешёвый ноутбук",
+    "title" : "То вывести самый дешёвый ноутбук",
+    "time" : {
+      "start" : 1555335135284,
+      "stop" : 1555335135369,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То фильтровать по цене",
+    "title" : "То фильтровать по цене",
+    "time" : {
+      "start" : 1555335135370,
+      "stop" : 1555335140482,
+      "duration" : 5112
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если выведенные ноутбуки меньше 109000",
+    "title" : "Если выведенные ноутбуки меньше 109000",
+    "time" : {
+      "start" : 1555335140482,
+      "stop" : 1555335140526,
+      "duration" : 44
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То вывести самый дорогой ноутбук и разницу в цене",
+    "title" : "То вывести самый дорогой ноутбук и разницу в цене",
+    "time" : {
+      "start" : 1555335140526,
+      "stop" : 1555335140599,
+      "duration" : 73
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То занести все выведенные ноутбуки в список, вывести список отсортированный по имени",
+    "title" : "То занести все выведенные ноутбуки в список, вывести список отсортированный по имени",
+    "time" : {
+      "start" : 1555335140599,
+      "stop" : 1555335141508,
+      "duration" : 909
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То открыть страницу с ноутбуком",
+    "title" : "То открыть страницу с ноутбуком",
+    "time" : {
+      "start" : 1555335141509,
+      "stop" : 1555335143723,
+      "duration" : 2214
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если открыта страница с ноутбуком",
+    "title" : "Если открыта страница с ноутбуком",
+    "time" : {
+      "start" : 1555335143723,
+      "stop" : 1555335144161,
+      "duration" : 438
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То выбрать раздел с характеристиками",
+    "title" : "То выбрать раздел с характеристиками",
+    "time" : {
+      "start" : 1555335144161,
+      "stop" : 1555335145765,
+      "duration" : 1604
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Если открыт раздел с характеристиками ноутбука",
+    "title" : "Если открыт раздел с характеристиками ноутбука",
+    "time" : {
+      "start" : 1555335145765,
+      "stop" : 1555335145832,
+      "duration" : 67
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То создать класс \"Питание\", занести характеристики в отдельные поля, создать его конструктор",
+    "title" : "То создать класс \"Питание\", занести характеристики в отдельные поля, создать его конструктор",
+    "time" : {
+      "start" : 1555335145832,
+      "stop" : 1555335145896,
+      "duration" : 64
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То нажать на поле с вопросом",
+    "title" : "То нажать на поле с вопросом",
+    "time" : {
+      "start" : 1555335145896,
+      "stop" : 1555335146007,
+      "duration" : 111
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "То вывести текст подсказки",
+    "title" : "То вывести текст подсказки",
+    "time" : {
+      "start" : 1555335146007,
+      "stop" : 1555335146318,
+      "duration" : 311
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Поиск ноутбуков HP и Lenovo, вывод информации о них"
+  }, {
+    "name" : "suite-name",
+    "value" : "Автотест для Yandex.Market"
+  }, {
+    "name" : "thread",
+    "value" : "4636@pc178.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "pc178"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Автотест для Yandex.Market"
+  } ],
+  "parameters" : [ ]
+}

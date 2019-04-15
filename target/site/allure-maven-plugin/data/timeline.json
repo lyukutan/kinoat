@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "pc178",
+    "threads" : [ {
+      "title" : "4636@pc178.main(1)",
+      "testCases" : [ {
+        "uid" : "9f285eca62e33b3",
+        "name" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+        "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+        "time" : {
+          "start" : 1555335111840,
+          "stop" : 1555335147299,
+          "duration" : 35459
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
