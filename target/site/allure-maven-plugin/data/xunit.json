@@ -1,38 +1,38 @@
 {
   "time" : {
-    "start" : 1555335111840,
-    "stop" : 1555335147299,
-    "duration" : 35459
+    "start" : 1555416209286,
+    "stop" : 1555416209296,
+    "duration" : 10
   },
   "testSuites" : [ {
-    "uid" : "37a3d367646ab8b8",
-    "name" : "Автотест для Yandex.Market",
-    "title" : "Market",
+    "uid" : "9de466f7df09d16a",
+    "name" : "Авторизация в системе",
+    "title" : "Авторизация в системе",
     "time" : {
-      "start" : 1555335111840,
-      "stop" : 1555335147299,
-      "duration" : 35459
+      "start" : 1555416209286,
+      "stop" : 1555416209296,
+      "duration" : 10
     },
     "statistic" : {
       "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
+      "passed" : 0,
+      "pending" : 1,
       "canceled" : 0,
       "failed" : 0,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "9f285eca62e33b3",
-      "name" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
-      "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+      "uid" : "a2b41694daf5d292",
+      "name" : "Проверка доступности веб-интерфейса",
+      "title" : "Проверка доступности веб-интерфейса",
       "time" : {
-        "start" : 1555335111840,
-        "stop" : 1555335147299,
-        "duration" : 35459
+        "start" : 1555416209286,
+        "stop" : 1555416209296,
+        "duration" : 10
       },
       "severity" : "NORMAL",
-      "status" : "PASSED"
+      "status" : "PENDING"
     } ]
   } ]
 }

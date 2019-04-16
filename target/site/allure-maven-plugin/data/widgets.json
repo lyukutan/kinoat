@@ -4,16 +4,16 @@
     "total" : {
       "statistic" : {
         "total" : 1,
-        "passed" : 1,
-        "pending" : 0,
+        "passed" : 0,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1555335111840,
-        "stop" : 1555335147299,
-        "duration" : 35459
+        "start" : 1555416209286,
+        "stop" : 1555416209296,
+        "duration" : 10
       }
     },
     "defects" : {
@@ -23,12 +23,12 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "37a3d367646ab8b8",
-        "title" : "Market",
+        "uid" : "9de466f7df09d16a",
+        "title" : "Авторизация в системе",
         "statistic" : {
           "total" : 1,
-          "passed" : 1,
-          "pending" : 0,
+          "passed" : 0,
+          "pending" : 1,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0
@@ -38,11 +38,11 @@
     "behaviors" : {
       "totalCount" : 1,
       "items" : [ {
-        "title" : "Автотест для Yandex.Market",
+        "title" : "Авторизация в системе",
         "statistic" : {
           "total" : 1,
-          "passed" : 1,
-          "pending" : 0,
+          "passed" : 0,
+          "pending" : 1,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0

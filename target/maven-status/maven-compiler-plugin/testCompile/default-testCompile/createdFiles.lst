@@ -1,2 +1,4 @@
+steps\LoginTestSteps.class
 runTest.class
-TestSteps.class
+steps\ProducerTestSteps.class
+steps\InvestorTestSteps.class

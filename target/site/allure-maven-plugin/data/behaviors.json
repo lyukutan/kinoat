@@ -1,36 +1,36 @@
 {
   "features" : [ {
-    "title" : "Автотест для Yandex.Market",
+    "title" : "Авторизация в системе",
     "statistic" : {
       "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
+      "passed" : 0,
+      "pending" : 1,
       "canceled" : 0,
       "failed" : 0,
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "e8d921174ec7e980",
-      "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+      "uid" : "ca42edf0d3221708",
+      "title" : "Проверка доступности веб-интерфейса",
       "statistic" : {
         "total" : 1,
-        "passed" : 1,
-        "pending" : 0,
+        "passed" : 0,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "9f285eca62e33b3",
-        "name" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
-        "title" : "Поиск ноутбуков HP и Lenovo, вывод информации о них",
+        "uid" : "a2b41694daf5d292",
+        "name" : "Проверка доступности веб-интерфейса",
+        "title" : "Проверка доступности веб-интерфейса",
         "time" : {
-          "start" : 1555335111840,
-          "stop" : 1555335147299,
-          "duration" : 35459
+          "start" : 1555416209286,
+          "stop" : 1555416209296,
+          "duration" : 10
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "PENDING"
       } ]
     } ]
   } ]
